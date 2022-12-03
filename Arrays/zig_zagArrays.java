@@ -19,12 +19,12 @@ public class zig_zagArrays {
             }
         }
         for (int num:
-             firstArray) {
+                firstArray) {
             System.out.print(num+" ");
         }
         System.out.println();
         for (int num:
-             secondArray) {
+                secondArray) {
             System.out.print(num+" ");
         }
     }

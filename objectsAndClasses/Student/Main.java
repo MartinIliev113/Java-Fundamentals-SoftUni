@@ -1,4 +1,4 @@
-package objectsAndClasses.Student;
+package ObjectsAndClasses.Student;
 
 import java.util.ArrayList;
 import java.util.Comparator;

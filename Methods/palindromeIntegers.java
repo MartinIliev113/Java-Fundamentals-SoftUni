@@ -8,7 +8,7 @@ public class palindromeIntegers {
         String number=scanner.nextLine();
         while (!number.equals("END")){
             if(isPalindrome(number))
-            System.out.println("true");
+                System.out.println("true");
             else
                 System.out.println("false");
             number=scanner.nextLine();

@@ -18,7 +18,7 @@ public class condenseArrayToNumber {
                 condensed=condensedNew;
             }
             else
-            condensed[i]=numbers[i]+numbers[i+1];
+                condensed[i]=numbers[i]+numbers[i+1];
         }
         System.out.println(numbers[0]);
     }

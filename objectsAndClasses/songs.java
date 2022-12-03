@@ -1,4 +1,4 @@
-package objectsAndClasses;
+package ObjectsAndClasses;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +49,7 @@ public class songs {
             for (Song song:listSong) {
                 if(song.getTypeList().equals(typeListPrint)){
                     System.out.println(song.getName());
-            }
+                }
             }
         }
     }

@@ -8,8 +8,8 @@ public class listOfProducts {
         int n = Integer.parseInt(scanner.nextLine());
         List<String> products = new ArrayList<>();
         for (int i = 0; i <n ; i++) {
-         String product=scanner.nextLine();
-         products.add(product);
+            String product=scanner.nextLine();
+            products.add(product);
         }
         Collections.sort(products);
         for (int i = 0; i <n ; i++) {

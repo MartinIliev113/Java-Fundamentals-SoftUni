@@ -1,4 +1,4 @@
-package objectsAndClasses.orderByAge;
+package ObjectsAndClasses.orderByAge;
 
 public class Person {
     private String name;

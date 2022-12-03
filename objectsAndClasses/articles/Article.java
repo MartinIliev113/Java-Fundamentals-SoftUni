@@ -1,4 +1,4 @@
-package objectsAndClasses.articles;
+package ObjectsAndClasses.articles;
 
 public class Article {
     private String title;

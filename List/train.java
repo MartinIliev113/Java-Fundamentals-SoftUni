@@ -9,8 +9,8 @@ public class train {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List <Integer> wagonsList=Arrays.stream(scanner.nextLine().split(" "))
-        .map(Integer::parseInt)
-        .collect(Collectors.toList());
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
         int capacity=Integer.parseInt(scanner.nextLine());
         String command=scanner.nextLine();
         while(!command.equals("end")){

@@ -1,5 +1,3 @@
-package DataTypesAndVariables;
-
 import java.util.Scanner;
 
 public class fromLeftToTheRight {
@@ -30,4 +28,3 @@ public class fromLeftToTheRight {
         }
     }
 }
-

@@ -72,8 +72,6 @@ public class treasureHunt {
                     break;
 
             }
-
-
             command = scanner.nextLine();
         }
 

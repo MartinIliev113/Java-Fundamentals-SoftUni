@@ -1,4 +1,4 @@
-package objectsAndClasses.vehicleCatalogue;
+package ObjectsAndClasses.vehicleCatalogue;
 
 public class Vehicle {
     private String type;

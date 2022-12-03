@@ -1,5 +1,4 @@
 package BasicSyntax;
-
 import java.util.Scanner;
 
 public class padawan {
@@ -15,7 +14,7 @@ public class padawan {
         double lightsaber=Math.ceil(students+0.1*students);
         double belt=students-students/6;
         double totalMoney=lightsaber*lightsaberPrice+
-        students*robePrice+belt*beltPrice;
+                students*robePrice+belt*beltPrice;
 
         if(totalMoney<=money){
             System.out.printf("The money is enough - it would cost %.2flv.",totalMoney);

@@ -1,4 +1,4 @@
-package objectsAndClasses.opinionPoll;
+package ObjectsAndClasses.opinionPoll;
 
 public class Person {
     private String name;

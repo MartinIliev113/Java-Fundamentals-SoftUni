@@ -14,16 +14,16 @@ public class vowelsCount {
         int vowels=0;
         String[] letterArray= text.toLowerCase(Locale.ROOT).split("");
         for (int i = 0; i < letterArray.length; i++) {
-           switch (letterArray[i]){
-               case "a":
-               case "e":
-               case "i":
-               case "o":
-               case "u":
-               case "y":
-                   vowels++;
-                   break;
-           }
+            switch (letterArray[i]){
+                case "a":
+                case "e":
+                case "i":
+                case "o":
+                case "u":
+                case "y":
+                    vowels++;
+                    break;
+            }
         }
         return vowels;
     }

@@ -10,8 +10,8 @@ public class listManipulationAdvanced {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Integer> numList=Arrays.stream(scanner.nextLine().split(" "))
-        .map(Integer::parseInt)
-        .collect(Collectors.toList());
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
         String input=scanner.nextLine();
         while (!input.equals("end")){
             String[] command=input.split(" ");

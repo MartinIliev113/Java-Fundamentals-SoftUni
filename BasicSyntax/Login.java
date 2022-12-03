@@ -2,7 +2,7 @@ package BasicSyntax;
 
 import java.util.Scanner;
 
-public class Login {
+public class login {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String username=scanner.nextLine();

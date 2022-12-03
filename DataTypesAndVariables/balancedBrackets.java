@@ -13,7 +13,7 @@ public class balancedBrackets {
                 brackets++;
             else if (text.equals(")")) {
                 if(brackets>0)
-                brackets--;
+                    brackets--;
             }
         }
         if(brackets==0)

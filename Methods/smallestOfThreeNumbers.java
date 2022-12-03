@@ -15,7 +15,7 @@ public class smallestOfThreeNumbers {
         if(b<a)
             smallest=b;
         if (c<a)
-                smallest=c;
+            smallest=c;
         return smallest;
     }
 }

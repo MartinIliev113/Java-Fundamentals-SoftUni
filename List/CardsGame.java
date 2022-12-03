@@ -5,15 +5,15 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class CardsGame {
+public class cardsGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Integer> handOne=Arrays.stream(scanner.nextLine().split(" "))
-        .map(Integer::parseInt)
-        .collect(Collectors.toList());
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
         List <Integer> handTwo=Arrays.stream(scanner.nextLine().split(" "))
-        .map(Integer::parseInt)
-        .collect(Collectors.toList());
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
 
         while (handOne.size() !=0 && handTwo.size() !=0){
             int fistPlayerCard=handOne.get(0);

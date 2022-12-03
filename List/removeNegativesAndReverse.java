@@ -1,9 +1,7 @@
 package List;
 
-
 import java.util.*;
 import java.util.stream.Collectors;
-
 
 public class removeNegativesAndReverse {
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
 package BasicSyntax;
-
 import java.util.Scanner;
 
 public class rageExpenses {
@@ -21,8 +20,8 @@ public class rageExpenses {
             if(i%6==0){
                 keyboard++;
             }
-                if(i%12==0) {
-                    display++;
+            if(i%12==0) {
+                display++;
             }
         }
         System.out.printf("Rage expenses: %.2f lv.",headset*headsetPrice+

@@ -11,8 +11,8 @@ public class sumAdjacentEqualNumbers {
         Scanner scanner = new Scanner(System.in);
 
         List<Double> numbersList = Arrays.stream(scanner.nextLine().split(" "))
-        .map(Double::parseDouble)
-        .collect(Collectors.toList());
+                .map(Double::parseDouble)
+                .collect(Collectors.toList());
         for (int i = 0; i < numbersList.size(); i++) {
             if (numbersList.size()-1 == i)
                 break;
@@ -25,7 +25,7 @@ public class sumAdjacentEqualNumbers {
             }
         }
         System.out.println(joinElementsByDelimiters(numbersList," "));
-        }
+    }
     private static String joinElementsByDelimiters(List<Double> list,String delimiter){
         DecimalFormat df=new DecimalFormat("0.#");
         String result="";

@@ -14,8 +14,8 @@ public class pokeMon {
             n-=m;
             targets++;
             if(n==fiftyPercentN){
-                if(y!=0)
-                n/=y;
+                if(y>0)
+                    n/=y;
             }
         }
         System.out.println(n);

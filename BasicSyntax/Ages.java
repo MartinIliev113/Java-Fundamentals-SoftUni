@@ -2,7 +2,7 @@ package BasicSyntax;
 
 import java.util.Scanner;
 
-public class Ages {
+public class ages {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int age=Integer.parseInt(scanner.nextLine());

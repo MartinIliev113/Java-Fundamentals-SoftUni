@@ -1,4 +1,4 @@
-package objectsAndClasses.orderByAge;
+package ObjectsAndClasses.orderByAge;
 
 import java.util.ArrayList;
 import java.util.Comparator;
